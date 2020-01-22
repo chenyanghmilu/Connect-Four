@@ -147,11 +147,11 @@ function render() {
         } else {
             msgEl.innerHTML = `<span style="color:${COLORS[winner]}">${COLORS[
         winner
-      ].toUpperCase()}</span> Wins!`;
+    ].toUpperCase()}</span> Wins!`;
         }
     } else {
         msgEl.innerHTML = `<span style="color:${COLORS[turn]}">${COLORS[
-      turn
+    turn
     ].toUpperCase()}</span>'s Turn`;
     }
 }
